@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94777839446']
+const ownerNumber = ['94755570734']
 
 
 
