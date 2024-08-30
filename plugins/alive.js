@@ -32,7 +32,7 @@ Thank You For Using Amda.
 
 𝙽𝙾𝚆 𝚄𝚂𝙴𝙳 𝚁𝙰𝙼: ${usedRAM} 𝙼𝙱
 𝚄𝙿 𝚃𝙸𝙼𝙴: ${runtime(process.uptime())}
-ᴍᴀᴅᴇ ʙʏ ᴍʀᴅɪʟᴀ`
+ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`
 
         // URL of the image you want to include
         const imageUrl = 'https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg'; // Replace with your actual image URL
