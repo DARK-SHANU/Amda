@@ -15,7 +15,7 @@ cmd({
         const usedRAM = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2); // Used RAM in MB
         const freeRAM = (totalRAM - parseFloat(usedRAM)).toFixed(2); // Free RAM in MB
 
-        let status = Hey There! Bot Online now. 💃🏻♥
+        let status = `Hey There! Bot Online now. 💃🏻♥
 Thank You For Using Amda.
 
 👨‍💻 Developer:  Amda
@@ -28,7 +28,7 @@ Thank You For Using Amda.
  ✨          🖋         ☣          ⇊           
 ᴿᵉᵃᶜᵗ        ᴵᵈᵉᵃˢ    ˢʰᵃʳᵉ        ˢᵃᵛᵉ
 
-ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ
+ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`
 
 𝙽𝙾𝚆 𝚄𝚂𝙴𝙳 𝚁𝙰𝙼: ${usedRAM} 𝙼𝙱
 𝚄𝙿 𝚃𝙸𝙼𝙴: ${runtime(process.uptime())}
