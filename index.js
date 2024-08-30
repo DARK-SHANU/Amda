@@ -77,7 +77,10 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*Hey I'M Online Now*\n_Type To Menu Get Bot All Commands_ ⤵\n\nᶜʳᵉᵃᵗᵉ ᵇʸ ᴬᵐᵈᵃ`;
+let up = `*Hey I'M Online Now*\n_Amda bot has been successfully activated! ✅
+
+Thank you for using  Amda 💌
+_ ⤵\n\nᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg` }, caption: up })
 
