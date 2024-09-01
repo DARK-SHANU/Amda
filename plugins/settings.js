@@ -13,7 +13,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             image: { url: 'https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg' },
             caption: 
                 
-╭──「'⚙Black Amda Settings List」───●●►
+╭──「`⚙Black Amda Settings List」───●●►
 │               
 │  ┌──────────────        
 │  ├─\n\n*Alive IMG*\n.update ALIVE_IMG: Your Image Url
