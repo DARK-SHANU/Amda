@@ -77,10 +77,10 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*Hey I'M Online Now*\n_Amda bot has been successfully activated! ✅
+let up = `*Hey I'M Online Now*\n Black Amda bot has been successfully activated! ✅
 
-Thank you for using  Amda 💌
-_ ⤵\n\nᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`;
+Thank you for using Black Amda 💌
+ \n\nʙʟᴀᴄᴋ ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg` }, caption: up })
 
@@ -153,10 +153,16 @@ m.react("👨‍💻")
 }
 
 //============================================================================ 
-if(!isOwner && config.MODE === "private") return
-if(!isOwner && isGroup && config.MODE === "inbox") return
-if(!isOwner && !isGroup && config.MODE === "groups") return
-        //==============
+
+
+        
+if(!isOwner && config.WORK_TYPE === "private") return
+if(!isOwner && isGroup && config.WORK_TYPE === "inbox") return
+if(!isOwner && !isGroup && config.WORK_TYPE === "groups") return
+
+
+        
+//=============================================================================
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
