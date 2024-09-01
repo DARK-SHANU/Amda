@@ -21,18 +21,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │  └──────────────
 │
 │  ┌──────────────        
-│  ├─\n\n*Menu IMG*\n.update Menu IMG: Your Image Url  
+│  ├─\n\n*Menu IMG*\n.update Menu_IMG: Your Image Url  
 │  ├─\n\n*Menu MSG*\n.update Menu_MSG: Your Menu MSG
 │  └──────────────
 │
 │  ┌──────────────
-│  ├─ ►\n\n*Auto Status Seen*\n.update AUTO_READ_STATUS: 
+│  ├─ ►\n\n*AUTO REED STATUS*\n.update AUTO_READ_STATUS:
 │  ├─ 🔛 Enable 
 │  ├─ 📴 Disable 
 │  └──────────────
 │
 │  ┌──────────────
-│  ├─ ►\n\n*Mode*\n.update Work Type: 
+│  ├─ ►\n\n*WORK_TYPE*\n.update WORK_TYPE: 
 │  ├─ 👤 private
 │  ├─ 👥 public 
 │  ├─ 📥👥 index or group
