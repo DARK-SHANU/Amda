@@ -28,31 +28,24 @@ cmd({
         const downloadSpeed = (speed.download.bandwidth / 125000).toFixed(2); // Convert from bits/sec to MB/sec
         const uploadSpeed = (speed.upload.bandwidth / 125000).toFixed(2); // Convert from bits/sec to MB/sec
 
-        let status = `
-          
-╭─「 𝗕𝗟𝗔𝗖𝗞 𝗔𝗠𝗗𝗔 𝗦𝗬𝗦𝗧𝗘𝗠 𝗦𝗧𝗔𝗧𝗨𝗦 」
-│
-│ ◈ *⌚ 𝗥𝗨𝗡 𝗧𝗜𝗠𝗘:*  ${runtime(process.uptime())}  
-│
-│ ◈ *🕹 𝗥𝗔𝗠 𝗨𝗦𝗔𝗚𝗘:*
-│      ╰───── *𝚄𝚜𝚎𝚍*: ${usedRAM} MB
-│      ╰───── *𝙵𝚛𝚎𝚎*: ${freeRAM} MB
-│      ╰───── *𝚃𝚘𝚝𝚊𝚕*: ${totalRAM} MB
-│
-│ ◈ *📡 𝗣𝗶𝗻𝗴:* ${ping} ms
-│
-│ ◈ *🌐 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗦𝗽𝗲𝗲𝗱:*
-│       ╰───── *𝙳𝚘𝚠𝚗𝚕𝚘𝚍*: ${downloadSpeed} MB/sec
-│       ╰───── *𝚄𝚙𝚕𝚘𝚊𝚍*: ${uploadSpeed} MB/sec
-│
-│ ◈ *🏠 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲:* 𝚄𝙱𝚄𝙽𝚃𝚄 𝚅𝙿𝚂
-│
-│ ◈ *👨‍💻 𝗢𝘄𝗻𝗲𝗿:* 𝙱𝙻𝙰𝙲𝙺 𝙰𝙼𝙳𝙰
-│
-│   ʙʟᴀᴄᴋ ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ
-╰───────────────────────────────●●► 
 
+        let status = `*🕒 Uptime:* ${runtime(process.uptime())}
+*📶 Ping:* ${ping} ms
+*💾 RAM Usage:* 
+- *Used*: ${usedRAM} MB
+- *Free*: ${freeRAM} MB
+- *Total*: ${totalRAM} MB
+*🌐 Network Speed:*
+- *Download*: ${downloadSpeed} MB/sec
+- *Upload*: ${uploadSpeed} MB/sec
+*🏠 HostName:* Ubuntu VPS
+*👤 Owner:* ᴍʀ ᴅɪʟᴀ
 `;
+
+
+
+
+        
 
         // URL of the image you want to include
         const imageUrl = 'https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg'; // Replace with your actual image URL
