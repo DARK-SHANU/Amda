@@ -11,9 +11,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         return await conn.sendMessage(from, {
             image: { url: 'https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg' },
-            caption: 
+            caption: `
                 
-╭──「`⚙Black Amda Settings List」───●●►
+╭──「⚙Black Amda Settings List」───●●►
 │               
 │  ┌──────────────        
 │  ├─\n\n*Alive IMG*\n.update ALIVE_IMG: Your Image Url
@@ -57,8 +57,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │  | Set : as the prefix
 │  | Set ~ as the prefix )
 │  
-│   ʙʟᴀᴄᴋ ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`
+│   ʙʟᴀᴄᴋ ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ
 ╰───────────────────────────────────●●►
+`
          
         
         }, { quoted: mek });
