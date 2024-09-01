@@ -198,7 +198,7 @@ cmd({
 │► .cmd
 │► .git
 ╰───────────●●►
-ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`
+ʙʟᴀᴄᴋ ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`
 
         // URL of the image you want to include
         const imageUrl = 'https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg'; // Replace with your actual image URL
