@@ -16,97 +16,189 @@ cmd({
         const usedRAM = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2); // Used RAM in MB
         const freeRAM = (totalRAM - parseFloat(usedRAM)).toFixed(2); // Free RAM in MB
 
-        let status = `*✸𝗗𝗶𝗹𝗮𝗠𝗗✸*
-*𝚃𝚛𝚢𝚃𝚑𝚒𝚜⤵*
+        let status = `*𝐁𝐋𝐀𝐂𝐊 𝐀𝐌𝐃𝐀*
 
-.ai
-_ex-.aiHey_
 
-*SupportUs⤵*
-𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙-https://whatsapp.com/channel/0029ValK0gn4SpkP6iaXoj2y
-𝚈𝚘𝚞𝚝𝚞𝚋𝚎-https://youtube.com/@dila_lk
-𝚆𝚎𝚋𝚂𝚒𝚝𝚎-dilalk.vercel.app
-
-*Uptime:* ${runtime(process.uptime())}
-*RAM Usage:* 
-- *Used*: ${usedRAM} MB
-- *Free*: ${freeRAM} MB
-- *Total*: ${totalRAM} MB
-*Owner:* ᴍʀ ᴅɪʟᴀ
-
-*OWNERMENU⤵*
-_.getsession_
-_.deletesession_
-_.join_
-_.shutdown_
-_.restart_
-_.autoreadmsg_
-_.autoreadcmd_
-_.autotyping_
-_.autorecording_
-_.autobio_
-_.autostatusview_
-_.autostatussave_
-_.mode_
-_.block_
-_.unblock_
-_.ban_
-_.unban_
-_.backup_
-_.addowner_
-_.delowner_
-_.ping_
-_.system_
-
-*GROUPMENU⤵*
-_.closetime_
-_.opentime_
-_.kick_
-_.add_
-_.promote_
-_.demote_
-_.setdesc_
-_.setppgc_
-_.tagall_
-_.hidetag_
-_.totag_
-_.admintag_
-_.group_
-_.grouplink_
-_.antilink_
-_.antibot_
-_.antiword_
-_.antispam_
-_.antidelete_
-_.antiviewone_
-
-*CONTACTMENU⤵*
-_.stickers_
-_.smeme_
-_.take_
-_.toimage_
-_.tovideo_
-_.toaudio_
-_.tomp3_
-_.imgtolink_
-
-*DOWNLOADMENU⤵*
-_.play_
-_.song_
-_.video_
-_.fb_
-_.tiktok_
-_.insta_
-_.modeapk_
-_.googledrive_
-
-*AIMENU⤵*
-_.ai_
-_.gemini_
-_.gpt3_
-
-dilalk.vercel.app
-ᵐᵃᵈᵆ ᵇʸ ᵐʳᵈⁱˡᵃ ᵒᶠᶜ`
+╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
+│◈ *𝚁𝚄𝙽𝚃𝙸𝙼𝙴* - ${runtime(process.uptime())}     
+│◈ *𝚁𝙰𝙼 𝚄𝚂𝙰𝙶𝙴*
+│     ╰───── *𝚄𝚜𝚎𝚍*: ${usedRAM} MB
+│     ╰───── *𝙵𝚛𝚎𝚎*: ${freeRAM} MB
+│     ╰───── *𝚃𝚘𝚝𝚊𝚕*: ${totalRAM} MB
+╰──────────●●►
+╭──────────●●►
+│📜 MAIN COMMANDS
+│   ───────
+│► .bingen
+│► .dictionary
+│► .readmore
+│► .device
+│► .tempmail
+│► .newgroup
+│► .delgroup
+│► .save
+│► .block
+│► .unblock
+│► .help
+│► .id
+│► .settings
+│► .apply
+│► .defaultimg
+│► .defaultsudo
+│► .news
+│► .logo
+│► .script
+│► .alive
+│► .jid
+│► .system
+│► .restart
+│► .join
+│► .ping
+│► .list
+│► .menu
+╰───────────●●►
+╭───────────●●►
+│⬇ DOWNLOAD COMMANDS
+│   ───────
+│► .downurl
+│► .movie
+│► .download
+│► .threads
+│► .twitter
+│► .pinterest
+│► .sisub
+│► .fb2
+│► .capcut
+│► .gitclone
+│► .tiktok
+│► .fb
+│► .ig
+│► .apk
+│► .fmmod
+│► .gdrive
+│► .mediafire
+│► .ss
+│► .video
+│► .song
+│► .spotify
+│► .img
+│► .xvdl
+╰───────────●●►
+╭───────────●●►
+│🔱 GROUP COMMANDS
+│   ───────
+│► .gdp
+│► .automute
+│► .autounmute
+│► .ban
+│► .unban
+│► .invite
+│► .mute
+│► .unmute
+│► .promote
+│► .demote
+│► .kick
+│► .hidetag
+│► .add
+│► .gdesc
+│► .gname
+│► .left
+│► .antispam
+│► .del
+╰───────────●●►
+╭───────────●●►
+│👨‍💻 OWNER COMMANDS
+│   ───────
+│► .removesticker
+│► .resetsticker
+│► .getsticker
+│► .addsticker
+│► .addbad
+│► .resetbad
+│► .getbad
+│► .resetvoice
+│► .removevoice
+│► .getvoice
+│► .addvoice
+│► .replacereply
+│► .removereply
+│► .getreply
+│► .resetreply
+│► .addreply
+│► .eval
+│► .send
+│► .enc
+│► .dec
+│► .boom
+│► .vv
+│► .tovv
+│► .dp
+│► .sendaudio
+│► .sendtag
+│► .sendmsg
+│► .remove
+│► .repostatus
+│► .report
+│► .quote
+│► .alljid
+│► .about
+│► .name
+╰───────────●●►
+╭───────────●●►
+│🔗 CONVERT COMMANDS
+│   ───────
+│► .emoji
+│► .blur
+│► .toaudio
+│► .toptt
+│► .remini
+│► .img2qr
+│► .removebg
+│► .toqr
+│► .surl
+│► .tts
+│► .wame
+│► .img2url
+│► .fancy
+│► .trt
+│► .toimg
+│► .pdf
+│► .edit
+│► .emomix
+╰───────────●●►
+╭───────────●●►
+│🤖 AI COMMANDS
+│   ───────
+│► .gemini
+│► .imagine
+│► .gpt
+╰───────────●●►
+╭───────────●●►
+│🫧 MATH COMMANDS
+│   ───────
+│► .mathstep
+│► .math
+│► .cal
+╰───────────●●►
+╭───────────●●►
+│🔍SEARCH COMMANDS
+│   ───────
+│► .findapk
+│► .sporty
+│► .mobilenews
+│► .ip
+│► .cric
+│► .find
+│► .yts
+│► .npm
+│► .wabeta
+│► .movieinfo
+│► .weather
+│► .lyrics
+│► .cmd
+│► .git
+╰───────────●●►
+ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`
 
         // URL of the image you want to include
         const imageUrl = 'https://telegra.ph/file/cef9e06c2bb1935ac36ee.jpg'; // Replace with your actual image URL
