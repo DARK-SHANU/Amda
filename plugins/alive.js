@@ -24,7 +24,7 @@ Thank You For Using Amda.
 
 💃🏻 Official Website :
 
- ✨          🖋         ☣          ⇊           
+ ✨          🖋        ☣          ⇊           
 ᴿᵉᵃᶜᵗ        ᴵᵈᵉᵃˢ    ˢʰᵃʳᵉ        ˢᵃᵛᵉ
 
 𝙽𝙾𝚆 𝚄𝚂𝙴𝙳 𝚁𝙰𝙼: ${usedRAM} 𝙼𝙱
@@ -40,7 +40,7 @@ Thank You For Using Amda.
             caption: status
         }, { quoted: mek || null });
         
-   await conn.sendMessage(from, { audio: { url: 'https://drive.google.com/uc?export=download&id=1_B41I68rU2RRkcHtrUcpGQhK8Gjct_Es' }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek });
+   await conn.sendMessage(from, { audio: { url: 'https://drive.google.com/uc?export=download&id=11VPnQcNtW3PDt1xZyTD_RJuwPjew7rpo' }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek });
 
  } catch (e) {
         console.log(e)
