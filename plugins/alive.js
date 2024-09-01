@@ -15,10 +15,13 @@ cmd({
         const usedRAM = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2); // Used RAM in MB
         const freeRAM = (totalRAM - parseFloat(usedRAM)).toFixed(2); // Free RAM in MB
 
+
+         await conn.sendMessage(from, { audio: { url: 'https://drive.google.com/uc?export=download&id=11VPnQcNtW3PDt1xZyTD_RJuwPjew7rpo' }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek });
+
         let status = `Hey There! Bot Online now. 💃🏻♥
 Thank You For Using Amda.
 
-👨‍💻 Developer:  Amda
+👨‍💻 Developer:  Black Amda
 
 👨🏻‍🏫  join support group : https://chat.whatsapp.com/K4mFlZ88QH2E1OPGNZYoPw
 
@@ -40,7 +43,7 @@ Thank You For Using Amda.
             caption: status
         }, { quoted: mek || null });
         
-   await conn.sendMessage(from, { audio: { url: 'https://drive.google.com/uc?export=download&id=11VPnQcNtW3PDt1xZyTD_RJuwPjew7rpo' }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek });
+
 
  } catch (e) {
         console.log(e)
