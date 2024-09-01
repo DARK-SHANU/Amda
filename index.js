@@ -8,6 +8,7 @@ fetchLatestBaileysVersion,
 Browsers
 } = require('@whiskeysockets/baileys')
 
+const l = console.log
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
@@ -19,7 +20,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94755570734']
+const ownerNumber = ['94777839446']
 
 
 
@@ -77,12 +78,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*Hey I'M Online Now*\n Black Amda bot has been successfully activated! ✅
+let up = `*Hey I'M Online Now*\n_Type To Menu Get Bot All Commands_ ⤵\n\nᴹᵃᵈᵉ ᴮʸ ᴹʳᴰⁱˡᵃ`;
 
-Thank you for using Black Amda 💌
- \n\nʙʟᴀᴄᴋ ᴀᴍᴅᴀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`;
-
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/c58b6c133ce2a0233d9d2.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/cef9e06c2bb1935ac36ee.jpg` }, caption: up })
 
 }
 })
@@ -147,22 +145,16 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 
-if(senderNumber.includes("94755570734")){
+if(senderNumber.includes("94727839446")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("🤖")
 }
 
 //============================================================================ 
-
-
-        
-if(!isOwner && config.WORK_TYPE === "private") return
-if(!isOwner && isGroup && config.WORK_TYPE === "inbox") return
-if(!isOwner && !isGroup && config.WORK_TYPE === "groups") return
-
-
-        
-//=============================================================================
+if(!isOwner && config.MODE === "private") return
+if(!isOwner && isGroup && config.MODE === "inbox") return
+if(!isOwner && !isGroup && config.MODE === "groups") return
+        //==============
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
@@ -204,6 +196,11 @@ app.listen(port, () => console.log(`Server listening on port http://localhost:${
 setTimeout(() => {
 connectToWA()
 }, 4000);  
+
+
+
+
+
 
 
 
